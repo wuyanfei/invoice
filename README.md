@@ -44,7 +44,7 @@
    * number,//数量
    * price,//单价
    * taxAmount,//税额
-   * invoiceType//发票编码
+   * invoiceType//发票类型编码
    * }]
    */
    let data = invoice.applyInvoice(gfmc, gfsh, gfdzdh, gfyhzh, invoices)
