@@ -20,13 +20,17 @@
    * @param {登录密码} wspwd 
    */
   let invoice = new Invoice(xfsh,xfmc,xfdzdh,xfyhzh,url,payee,drawer,reviewer,wsname,wspwd)
+  
+  
   /**
    * 打印发票
    * @param {发票代码} fpdm 
    * @param {发票号码} fphm 
    */
   let data = await invoice.print(fpdm, fphm)
-    /**
+  
+  
+  /**
    * 申请发票
    * @param {购方名称} gfmc 
    * @param {购方税号} gfsh 
