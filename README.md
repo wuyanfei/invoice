@@ -25,7 +25,7 @@
    * @param {发票代码} fpdm 
    * @param {发票号码} fphm 
    */
-  invoice.print(fpdm, fphm)
+  let data = await invoice.print(fpdm, fphm)
     /**
    * 申请发票
    * @param {购方名称} gfmc 
@@ -43,5 +43,5 @@
    * invoiceType//发票编码
    * }]
    */
-   invoice.applyInvoice(gfmc, gfsh, gfdzdh, gfyhzh, invoices)
+   let data = invoice.applyInvoice(gfmc, gfsh, gfdzdh, gfyhzh, invoices)
 ```
